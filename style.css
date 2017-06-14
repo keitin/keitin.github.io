@@ -159,7 +159,6 @@ header {
     clear: both;
     display: block;
     margin: 0px 20px 0px;
-    padding-bottom: 40px;
 }
 
 .product-box {
@@ -193,7 +192,8 @@ header {
 
 @media all and (min-width: 300px) {
     .product-box {
-        width: 100%;
+        width: 49%;
+        height: 100px;
     }
 
     .side-menu-box {
@@ -209,6 +209,7 @@ header {
 @media all and (min-width: 500px) {
     .product-box {
         width: 48%;
+        height: 200px;
     }
 
     .side-menu-box {
@@ -281,14 +282,56 @@ footer .copyright {
 
 
 
+/* profile */
 
+/* work */
 
+.profile-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.profile-box h1 {
+    margin-top: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 3px black solid;
+    letter-spacing: 1px;
+}
 
+.profile-box .work-content {
+    margin-left: 40px;    
+}
 
+.profile-box .work-content h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
 
+.work-content {
+    margin-bottom: 40px;
+}
 
+.work-content ul {
+    list-style: none;
+    font-size: 13px;
+}
 
+.work-content .date {
+    font-size: 10px;
+    color: gray;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
 
+#product {
+    position: absolute;
+    top: 0px;
+    display: block;
+}
 
-
+#profile {
+    position: relative;
+    top: 0px;
+    display: block;   
+}

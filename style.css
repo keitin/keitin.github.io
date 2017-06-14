@@ -156,7 +156,6 @@ header {
 .products-box {
     clear: both;
     display: block;
-    background-color: gray;
     margin: 0px 20px 0px;
     padding-bottom: 40px;
 }
@@ -166,14 +165,16 @@ header {
     background-color: #f5f5f5;
     float: left;
     margin: 0px;
+    border: 1px white solid;
 }
 
 .product-image {
     width: 99%;
     height: 99%;
     margin: 0 auto;
-    background-color: white;
-    background-size: cover;
+    background-color: #f5f5f5;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -194,7 +195,7 @@ header {
 
 @media only all and (min-width: 500px) {
     .product-box {
-        width: 50%;
+        width: 48%;
     }
 
     .side-menu-box {
@@ -209,7 +210,7 @@ header {
 
 @media only all and (min-width: 800px) {
     .product-box {
-        width: 50%;
+        width: 48%;
     }
 
     .side-menu-box {
@@ -228,7 +229,7 @@ header {
 
 @media only all and (min-width: 1000px) {
     .product-box {
-        width: 33.3%;
+        width: 33%;
     }
 
     .side-menu-box {

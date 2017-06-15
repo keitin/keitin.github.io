@@ -104,6 +104,7 @@ header {
     text-align: center;
     font-size: 10px;
     position: relative;
+    letter-spacing: 1px;
     top: -10px;
 }
 
@@ -210,6 +211,10 @@ header {
         height: 100px;
     }
 
+    .mini-footer {
+        display: block;
+    }
+
 }
 
 @media all and (min-width: 500px) {
@@ -231,6 +236,10 @@ header {
         height: 200px;
     }
 
+    .mini-footer {
+        display: none;
+    }
+
 }
 
 @media all and (min-width: 800px) {
@@ -250,7 +259,6 @@ header {
     .mini-header {
         display: none;
     }
-
 }
 
 @media all and (min-width: 1000px) {
@@ -347,4 +355,8 @@ footer .copyright {
     position: relative;
     top: 0px;
     display: block;   
+}
+
+.mini-footer {
+   font-size: 10px; 
 }
